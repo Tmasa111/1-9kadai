@@ -61,7 +61,30 @@ main {
   margin-bottom: 5px;
 }
 
+.text {
+  font-size: 12px;
+}
+
 footer {
   background-color: #aaaaaa;
   height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: block;
+    width: 100%;
+    position: center;
+  }
+
+  .box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+  }
+
+  .image1,.image2,.image3 {
+    height: 150px;
+    background-size: cover;
+  }
 }
